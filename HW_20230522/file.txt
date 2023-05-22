@@ -38,7 +38,7 @@ SELECT ProductModelID, Name
 ORDER BY Name;
 
 SELECT LastName, FirstName, JobTitle
-    FROM EmployeeOne  
+    FROM EmployeeOne
     UNION ALL
 SELECT LastName, FirstName ,JobTitle
     FROM EmployeeTwo;
